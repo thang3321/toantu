@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <input type="text" id="input">
+    <button onclick="check()">check</button>
+    <script>
+    const check = () => {
+    let login = document.getElementById("input").value;
+        if (login == 'Employee') {
+        alert("Hello");
+        } else if (login == 'Director') {
+            alert("Greetings");
+        } else if (login == '') {
+            alert("No login");
+        } else {
+            alert("");
+        }
+}
+    </script>
+</body>
+
+</html>
